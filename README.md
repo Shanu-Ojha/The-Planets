@@ -6,7 +6,10 @@
 </p>
 
 <hr/>
-
+<h2>📸 Preview</h2>
+<p align="center">
+  <img src="./assets/demo.gif" alt="3D Planetary Demo" width="700"/>
+</p>
 <h2>✨ Features</h2>
 <ul>
   <li>🪐 <b>Realistic 3D Planets</b> — Textured spheres representing different celestial bodies.</li>
@@ -45,9 +48,4 @@ cd 3d-planetary-showcase
 npm install
 npm run dev
 </pre>
-
-<h2>📸 Preview</h2>
-<p align="center">
-  <img src="./assets/demo.gif" alt="3D Planetary Demo" width="700"/>
-</p>
 
