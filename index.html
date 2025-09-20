@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
+    <title>The Planets</title>
+  </head>
+  <body>
+    <div class="w-full h-screen overflow-hidden font-mono text-white">
+      <div class="absolute w-full h-screen z-10">
+        <nav class="w-full flex justify-between items-center py-5 px-10">
+          <h3 class="text-xl">Planets</h3>
+          <div class="flex gap-10 text-l">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+        <div class="absolute top-1/10 left-1/2 -translate-x-1/2 text-center font-['Bellina']">
+          <div class="w-full h-[6em] overflow-hidden">
+            <h1 class="text-8xl font-light tracking-tighter h-full heading">Earth</h1>
+            <h1 class="text-8xl font-light tracking-tighter h-full heading">Csilla</h1>
+            <h1 class="text-8xl font-light tracking-tighter h-full heading">Volcanic</h1>
+            <h1 class="text-8xl font-light tracking-tighter h-full heading">Venus</h1>
+          </div>
+          <p class="text-l leading-none font-sans">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, autem?</p>
+          <div class="w-full h-px mt-5 bg-gradient-to-r from-transparent via-white to-transparent"></div>
+        </div>
+      </div>
+      <canvas id="canvas" class="w-full h-full"></canvas>
+    </div>    
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
